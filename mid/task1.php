@@ -39,6 +39,9 @@
     </td>
 <!--lang-->
       <td><label style="font-size: 18px;" for="language">Language Knowledge</label></td>
+      <td>
+        
+      </td>
     </form>
  </table>
    
