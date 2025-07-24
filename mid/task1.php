@@ -16,10 +16,14 @@
     <form action="">
       <tr><td><p style="font-size: 20px;"><b><ins>Complete The Registration</ins></b></p></td></tr>
 
+     <tr>
+        <td> <label style="font-size:18px;" for="">Full Name :</label>
+        </td>
+        <td><input type="text" placeholder="Enter the Full Name"></td>
+     </tr>
     </form>
  </table>
-    <?php
-    
-    ?>
+   
+
 </body>
 </html>
