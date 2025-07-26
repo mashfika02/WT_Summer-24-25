@@ -47,10 +47,14 @@
     background-color: #B5D4D4;
     border-radius: 5px;
     padding: 3px;
+ 
     
    }
    input[type="file"]::file-selector-button{
     background-color:#98C3C3;
+   }
+   .input_label{
+    width: 250px;
    }
    span{
     color: #5D9C98;
@@ -79,13 +83,13 @@
          <tr ><td class="regprara"><p>Customer Registration From</p></td></tr>
 <!--Full name-->
          <tr>
-            <td><label for="name">Full Name :</label></td>
-            <td><input type="name" placeholder="Enter your Full Name"></td>
+            <td><label  for="name">Full Name :</label></td>
+            <td><input class="input_label" type="name" placeholder="Enter your Full Name"></td>
          </tr>
          <!--date of birth-->
          <tr>
-            <td><label for="DOB">Date Of Birth :</label></td>
-            <td><input type="date" name="" id=""></td>
+            <td><label  for="DOB">Date Of Birth :</label></td>
+            <td><input class="input_label" type="date" name="" id=""></td>
          </tr>
          <!--Gender-->
          <tr>
@@ -97,18 +101,18 @@
             </td>
          </tr>
          <!--m status-->
-         <td><label for="MS">Marital Status :</label></td>
+         <td><label  for="MS">Marital Status :</label></td>
          <td>
-            <select name="" id="">
+            <select class="input_label" name="" id="">
                 <option value="">Single</option>
                 <option value="">Married</option>
             </select>
          </td>
         <!--account type-->
         <tr>
-           <td><label for="Account type">Account Type :</label></td>
+           <td><label  for="Account type">Account Type :</label></td>
            <td>
-            <select name="" id="">
+            <select class="input_label" name="" id="">
                 <option value="">Savings</option>
                 <option value="">Deposit</option>
                 <option value="">Checking</option>
@@ -117,38 +121,38 @@
         </tr>
           <!--initial deposit amount-->
           <tr>
-            <td><label for="IDA">Initial Deposit Amount :</label></td>
-            <td><input type="text" placeholder="Enter initial Deposit Amount  "></td>
+            <td><label   for="IDA">Initial Deposit Amount :</label></td>
+            <td><input class="input_label" type="text" placeholder="Enter initial Deposit Amount  "></td>
           </tr>
           <!--mobile number-->
           <tr>
-            <td><label for="mobile num">Mobile Number : :</label></td>
-            <td><input type="text" placeholder="Enter mobile number"></td>
+            <td><label class="input_label"  for="mobile num">Mobile Number : :</label></td>
+            <td><input class="input_label" type="text" placeholder="Enter mobile number"></td>
           </tr>
     <!--email-->
     <tr>
-        <td><label for="email">Email Address :</label></td>
-        <td><input type="email" name="" id="" placeholder="Enter email "></td>
+        <td><label class="input_label"  for="email">Email Address :</label></td>
+        <td><input class="input_label" type="email" name="" id="" placeholder="Enter email "></td>
     </tr>
      <!--Address -->
      <tr>
-        <td><label for="address">Address :</label></td>
-        <td><textarea name="" id="" rows="5"></textarea></td>
+        <td><label   for="address">Address :</label></td>
+        <td><textarea class="input_label" name="" id="" rows="5"></textarea></td>
      </tr>
       <!--occupation -->
       <tr>
-        <td><label for="occupation">Occupation :</label></td>
-        <td><input type="text" placeholder="Enter occupation "></td>
+        <td><label   for="occupation">Occupation :</label></td>
+        <td><input class="input_label" type="text" placeholder="Enter occupation "></td>
       </tr>
        <!--nid -->
       <tr>
-        <td><label for="nid">National ID (NID) :</label></td>
-        <td><input type="text" placeholder="Enter NID "></td>
+        <td><label  for="nid">National ID (NID) :</label></td>
+        <td><input class="input_label" type="text" placeholder="Enter NID "></td>
       </tr>
       <!--password -->
       <tr>
-      <td><label for="password">Set Password :</label></td>
-      <td><input type="password" name="" id="" placeholder="Set Password"></td>
+      <td><label   for="password">Set Password :</label></td>
+      <td><input class="input_label" type="password" name="" id="" placeholder="Set Password"></td>
       </tr>
        <!--upload id -->
        <tr>
