@@ -6,26 +6,28 @@
     <title>task 2</title>
     <style>
     body{
-        background-color: #D2E5E5;
+       background-color: #4E837F;
         }
     table{
-        background-color: #D2E5E5;
+        background-color:#D2E5E5 ;
         margin-left: auto;
         margin-right: auto;
         padding: 5px;
         border: 2px solid #4D8484;
-        border-radius: 5px;
-        box-shadow: #4D8484;
+        border-radius: 15px;
+       
     }
    .title{
-      color:#5D9C98;
+      color:#D2E5E5;
    }
    #title2{
-    color: #5D9C98;
+    color:#D2E5E5;
     font-family: Arial, Helvetica, sans-serif;
    }
   
-  
+  .regprara{
+    color: #4E837F;
+  }
   .btn{
     text-align: center;
   }
@@ -38,6 +40,7 @@
    label,p{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    color:#4E837F;
 
    }
    input,select,textarea{
@@ -53,7 +56,16 @@
     color: #5D9C98;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    
    }
+   div{
+    width: 250px;
+    height: 100px;
+    border: 2px solid #4D8484;
+    border-radius: 5px;
+    overflow: scroll;
+   }
+   
     </style>
 </head>
 <body>
@@ -64,7 +76,7 @@
 
     <table>
         <form action="">
-         <tr ><td><p>Customer Registration From</p></td></tr>
+         <tr ><td class="regprara"><p>Customer Registration From</p></td></tr>
 <!--Full name-->
          <tr>
             <td><label for="name">Full Name :</label></td>
@@ -151,6 +163,13 @@
        <tr>
            <td class="btn"><button type="button">Register</button></td>
            <td class="btn"><button type="button">Clear</button></td>
+           </tr>
+           <tr>
+            <td >
+                <div>
+                    There are several types of bank accounts, each designed for different financial needs. The most common types include savings accounts, checking accounts, fixed deposit accounts, and recurring deposit accounts. These accounts offer varying levels of interest, transaction flexibility, and investment option
+                </div>
+            </td>
            </tr>
         </form>
     </table>
