@@ -30,12 +30,15 @@
   }
   .btn{
     text-align: center;
+
   }
   button{
     background-color: #5D9C98;
     border-radius: 5px;
     padding: 10px;
     width: 250px;
+    color: azure;
+    border: 2px solid gray;
   }
    label,p{
     font-size: 16px;
