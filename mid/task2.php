@@ -12,7 +12,7 @@
     color: #5D9C98;
     font-family: Arial, Helvetica, sans-serif;
    }
-   
+  
    label,p{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,6 +21,11 @@
     background-color: #B5D4D4;
     border-radius: 5px;
     padding: 5px;
+   }
+   span{
+    color: #5D9C98;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
    }
     </style>
 </head>
@@ -37,6 +42,20 @@
          <tr>
             <td><label for="name">Full Name :</label></td>
             <td><input type="name" placeholder="Enter your Full Name"></td>
+         </tr>
+         <!--date of birth-->
+         <tr>
+            <td><label for="DOB">Date Of Birth :</label></td>
+            <td><input type="date" name="" id=""></td>
+         </tr>
+         <!--Gender-->
+         <tr>
+            <td><label for="gender">Gender :</label></td>
+            <td>
+                <input type="radio" name="gender" id="gender"> <span>male</span>
+                <input type="radio" name="gender" id="gender"> <span>Female</span>
+               <input type="radio" name="gender" id="gender"> <span>Others</span>
+            </td>
          </tr>
 
         </form>
