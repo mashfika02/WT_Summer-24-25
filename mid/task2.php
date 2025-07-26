@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task 2</title>
     <style>
+        body{
+            background-color: #D2E5E5;
+        }
+    table{
+        background-color: #D2E5E5;
+        margin-left: auto;
+        margin-right: auto;
+    }
    .title{
       color:#5D9C98;
    }
@@ -17,7 +25,7 @@
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
    }
-   input{
+   input,select,textarea{
     background-color: #B5D4D4;
     border-radius: 5px;
     padding: 5px;
@@ -57,6 +65,45 @@
                <input type="radio" name="gender" id="gender"> <span>Others</span>
             </td>
          </tr>
+         <!--m status-->
+         <td><label for="MS">Marital Status :</label></td>
+         <td>
+            <select name="" id="">
+                <option value="">Single</option>
+                <option value="">Married</option>
+            </select>
+         </td>
+        <!--account type-->
+        <tr>
+           <td><label for="Account type">Account Type :</label></td>
+           <td>
+            <select name="" id="">
+                <option value="">Savings</option>
+                <option value="">Deposit</option>
+                <option value="">Checking</option>
+            </select>
+           </td>
+        </tr>
+          <!--initial deposit amount-->
+          <tr>
+            <td><label for="IDA">Initial Deposit Amount :</label></td>
+            <td><input type="text" placeholder="Enter initial Deposit Amount  "></td>
+          </tr>
+          <!--mobile number-->
+          <tr>
+            <td><label for="mobile num">Mobile Number : :</label></td>
+            <td><input type="text" placeholder="Enter mobile number"></td>
+          </tr>
+    <!--email-->
+    <tr>
+        <td><label for="email">Email Address :</label></td>
+        <td><input type="email" name="" id="" placeholder="Enter email "></td>
+    </tr>
+     <!--Address -->
+     <tr>
+        <td><label for="address">Address :</label></td>
+        <td><textarea name="" id="" rows="5"></textarea></td>
+     </tr>
 
         </form>
     </table>
