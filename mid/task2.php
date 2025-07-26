@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task 2</title>
     <style>
-        body{
-            background-color: #D2E5E5;
+    body{
+        background-color: #D2E5E5;
         }
     table{
         background-color: #D2E5E5;
         margin-left: auto;
         margin-right: auto;
+        padding: 5px;
+        border: 2px solid #4D8484;
+        border-radius: 5px;
+        box-shadow: #4D8484;
     }
    .title{
       color:#5D9C98;
@@ -21,18 +25,33 @@
     font-family: Arial, Helvetica, sans-serif;
    }
   
+  
+  .btn{
+    text-align: center;
+  }
+  button{
+    background-color: #5D9C98;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+  }
    label,p{
-    font-size: 18px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+
    }
    input,select,textarea{
     background-color: #B5D4D4;
     border-radius: 5px;
-    padding: 5px;
+    padding: 3px;
+    
+   }
+   input[type="file"]::file-selector-button{
+    background-color:#98C3C3;
    }
    span{
     color: #5D9C98;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
    }
     </style>
@@ -45,7 +64,7 @@
 
     <table>
         <form action="">
-         <tr><td><p>Customer Registration From</p></td></tr>
+         <tr ><td><p>Customer Registration From</p></td></tr>
 <!--Full name-->
          <tr>
             <td><label for="name">Full Name :</label></td>
@@ -104,7 +123,35 @@
         <td><label for="address">Address :</label></td>
         <td><textarea name="" id="" rows="5"></textarea></td>
      </tr>
-
+      <!--occupation -->
+      <tr>
+        <td><label for="occupation">Occupation :</label></td>
+        <td><input type="text" placeholder="Enter occupation "></td>
+      </tr>
+       <!--nid -->
+      <tr>
+        <td><label for="nid">National ID (NID) :</label></td>
+        <td><input type="text" placeholder="Enter NID "></td>
+      </tr>
+      <!--password -->
+      <tr>
+      <td><label for="password">Set Password :</label></td>
+      <td><input type="password" name="" id="" placeholder="Set Password"></td>
+      </tr>
+       <!--upload id -->
+       <tr>
+        <td><label for="upload">Upload ID Proof :</label></td>
+        <td><input type="file" name="" id="file"></td>
+       </tr>
+       <tr>
+        <td><input type="checkbox" name="" id="">
+        <span>I agree to the terms and condition.</span>
+       </td> 
+       </tr>
+       <tr>
+           <td class="btn"><button type="button">Register</button></td>
+           <td class="btn"><button type="button">Clear</button></td>
+           </tr>
         </form>
     </table>
 </body>
