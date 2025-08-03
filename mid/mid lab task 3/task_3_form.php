@@ -13,10 +13,10 @@
         <h2>Donor Information</h2>
 
         <label for="First name">First Name :</label>
-        <input type="text" id="name" placeholder="Enter First Name">
+        <input type="text" id="first_name" placeholder="Enter First Name">
 
         <label for="Last name">Last Name :</label>
-        <input type="text" id="name" placeholder="Enter Last Name">
+        <input type="text" id="last_name" placeholder="Enter Last Name">
 
         <label for="address">Address :</label>
         <input type="text" id="address" placeholder="Enter Address">
