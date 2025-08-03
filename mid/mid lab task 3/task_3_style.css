@@ -5,9 +5,7 @@ h2{
     color:	Salmon;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-
 }
-
 
 form{
     display: flex;
@@ -32,7 +30,6 @@ input,#state{
     border: 1px solid  #FCC6BB ;
     padding: 10px;
     border-radius: 10px;
-
 }
 .radio{
     display: inline;
@@ -46,7 +43,6 @@ span{
   color: whitesmoke;
   margin-bottom: 5px;
   margin-top: 5px;
-
 }
 
 button{
@@ -60,7 +56,6 @@ button{
     padding-left:50px ;
     padding-right:50px ;
     margin-left: 40px;
-
 }
 
 .button{

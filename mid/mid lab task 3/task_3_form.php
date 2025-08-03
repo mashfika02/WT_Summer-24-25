@@ -11,6 +11,7 @@
    <div>
     <form action="">
         <h2>Donor Information</h2>
+        
         <label for="First name">First Name :</label>
         <input type="text" id="name" placeholder="Enter First Name">
 
@@ -22,7 +23,8 @@
 
         <label for="city">City :</label>
         <input type="text" id="city" placeholder="Enter City">
-
+      
+        <!-- state select dropdown -->
         <label for="state">State :</label>
         <select name="state" id="state">
             <option value="">Select</option>
@@ -40,7 +42,7 @@
         <!-- password -->
          <label for="password">Create Password (min 8 character):</label>
          <input type="password" name="password" id="password" placeholder="Create password">
-
+        <!-- check pass -->
           <label for="confirm password">Confirm Password :</label>
           <input type="password" name="password" id="cp" placeholder="Enter Confirm Password ">
 
@@ -56,6 +58,7 @@
         </div>
         <label for="amount">Other Amount :</label>
         <input type="number" name="amount" id="amount" placeholder="Enter Amount">
+        <!-- additional checkbox  -->
         <div class="checkbox">
             <input type="checkbox" name="" id="checkbox"> <span>I am interested in giving on a regular basis.</span>
             <h2>Additional Information</h2>
