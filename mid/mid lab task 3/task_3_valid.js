@@ -16,5 +16,14 @@ function HandleSubmit(){
         alert("Please Fill The Form!");
         return false;
     }
-    
+
+    //password
+    if(password.length <= 8){
+          alert("Password must be at least 8 characters long.");
+          return false;
+    }
+    if(password !== cp){
+        alert(" ❗ Password do not match.")
+        return false;
+    }
 }

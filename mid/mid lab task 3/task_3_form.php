@@ -11,7 +11,7 @@
    <div>
     <form action="">
         <h2>Donor Information</h2>
-        
+
         <label for="First name">First Name :</label>
         <input type="text" id="name" placeholder="Enter First Name">
 
