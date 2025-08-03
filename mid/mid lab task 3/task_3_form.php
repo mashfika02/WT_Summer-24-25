@@ -9,7 +9,12 @@
 </head>
 <body>
    <div>
-    <h2>Donor Information</h2>
+    <form action="">
+        <h2>Donor Information</h2>
+        <label for="First name">First name :</label>
+        <input type="text" placeholder="Enter First Name">
+       
+    </form>
    </div>
 </body>
 </html>
