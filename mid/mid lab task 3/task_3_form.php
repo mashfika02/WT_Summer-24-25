@@ -30,7 +30,19 @@
             <option value=""> Florida</option>
             <option value="">New York</option>
         </select>
-       
+        
+        <label for="phone">Phone :</label>
+        <input type="text" placeholder="Enter Phone Number">
+
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email">
+
+        <!-- Button -->
+
+       <div class="button">
+         <button onclick="HandleSubmit()" type="submit">Submit</button>
+         <button type="reset">Reset</button>
+       </div>
     </form>
    </div>
 </body>

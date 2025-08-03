@@ -34,3 +34,21 @@ input,#select{
     border-radius: 10px;
 
 }
+
+button{
+    background-color: #B8F5FF;
+    color: orange;
+    font-weight: 500;
+    border: none ;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:50px ;
+    padding-right:50px ;
+    margin-left: 40px;
+
+}
+
+.button{
+    margin-top: 20px;
+}
