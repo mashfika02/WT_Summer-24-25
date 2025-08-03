@@ -13,6 +13,23 @@
         <h2>Donor Information</h2>
         <label for="First name">First Name :</label>
         <input type="text" placeholder="Enter First Name">
+
+        <label for="Last name">Last Name :</label>
+        <input type="text" placeholder="Enter Last Name">
+
+        <label for="address">Address :</label>
+        <input type="text" placeholder="Enter Address">
+
+        <label for="city">City :</label>
+        <input type="text" placeholder="Enter City">
+
+        <label for="state">State :</label>
+        <select name="state" id="select">
+            <option value="">Select</option>
+            <option value="">California</option>
+            <option value=""> Florida</option>
+            <option value="">New York</option>
+        </select>
        
     </form>
    </div>
