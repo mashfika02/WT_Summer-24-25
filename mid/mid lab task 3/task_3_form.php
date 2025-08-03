@@ -24,7 +24,7 @@
         <input type="text" id="city" placeholder="Enter City">
 
         <label for="state">State :</label>
-        <select name="state" id="select">
+        <select name="state" id="state">
             <option value="">Select</option>
             <option value="">California</option>
             <option value=""> Florida</option>
@@ -65,7 +65,7 @@
         </div>
         <!-- comments -->
          <label for="comments">Comments :</label>
-         <textarea style="height: 100px;" name="" id="textArea"></textarea>
+         <textarea style="height: 100px;" name="" id="comment"></textarea>
         <!-- Button -->
        <div class="button">
          <button onclick="HandleSubmit()" type="submit">Submit</button>
