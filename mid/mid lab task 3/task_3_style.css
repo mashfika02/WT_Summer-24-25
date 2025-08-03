@@ -34,6 +34,20 @@ input,#select{
     border-radius: 10px;
 
 }
+.radio{
+    display: inline;
+}
+.checkbox{
+    margin-top: 10px;
+}
+span{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: whitesmoke;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+}
 
 button{
     background-color: #B8F5FF;
