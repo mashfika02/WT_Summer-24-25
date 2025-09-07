@@ -7,11 +7,33 @@
     <link rel="stylesheet" href="task1.css">
 </head>
 <body>
-    <div>
-        <h2>Book Shop</h2>
+     
+    <div class="book-form">
+       
         <form action="">
-            
+            <h2>Book Shop</h2>
+            <label for="title">Book Title :</label><br>
+            <input type="text" placeholder="Enter Book name"><br>
+            <label for="author">Author :</label><br>
+            <input type="text" placeholder="Enter Author"><br>
+            <label for="year">Release year :</label><br>
+            <input type="text" placeholder="Enter year">
+
         </form>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
     </div>
+    
+    <?php include 'task1.php';?>
 </body>
 </html>
